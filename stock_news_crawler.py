@@ -116,6 +116,7 @@ def crawl_stock_news(stock):
         logger.info(f"正在请求URL: {url}")
         response = requests.get(url, headers=headers)
         response.raise_for_status()
+        response.encoding = 'utf-8'  # 设置响应编码为UTF-8
         logger.info(f"请求成功，状态码: {response.status_code}")
         
         # 解析HTML
@@ -888,4 +889,4 @@ def main():
         time.sleep(1)
 
 if __name__ == "__main__":
-    main() 
+    main()

@@ -3,3 +3,4 @@ debug_page.html
 stock_news.html
 news_data.json
 stock_data/
+.DS_Store
