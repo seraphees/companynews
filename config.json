@@ -1,0 +1,97 @@
+{
+  "stocks": [
+    {
+      "name": "东方财富",
+      "code": "300059",
+      "industry": "金融服务"
+    },
+    {
+      "name": "中国平安",
+      "code": "601318",
+      "industry": "金融保险"
+    },
+    {
+      "name": "贵州茅台",
+      "code": "600519",
+      "industry": "白酒"
+    },
+    {
+      "name": "腾讯控股",
+      "code": "00700",
+      "industry": "互联网"
+    },
+    {
+      "name": "科达利",
+      "code": "002850",
+      "industry": "新能源"
+    },
+    {
+      "name": "赛轮股份",
+      "code": "601058",
+      "industry": "汽车零部件"
+    },
+    {
+      "name": "伊利股份",
+      "code": "600887",
+      "industry": "食品饮料"
+    },
+    {
+      "name": "宁德时代",
+      "code": "300750",
+      "industry": "新能源"
+    },
+    {
+      "name": "立讯精密",
+      "code": "002475",
+      "industry": "电子"
+    },
+    {
+      "name": "中国海洋石油",
+      "code": "600938",
+      "industry": "能源"
+    },
+    {
+      "name": "中远海控",
+      "code": "601919",
+      "industry": "交通运输"
+    },
+    {
+      "name": "格力电器",
+      "code": "000651",
+      "industry": "家电"
+    },
+    {
+      "name": "三一重工",
+      "code": "600031",
+      "industry": "机械设备"
+    },
+    {
+      "name": "五粮液",
+      "code": "000858",
+      "industry": "白酒"
+    },
+    {
+      "name": "珀莱雅",
+      "code": "603605",
+      "industry": "日化"
+    },
+    {
+      "name": "北方华创",
+      "code": "002371",
+      "industry": "半导体"
+    },
+    {
+      "name": "分众传媒",
+      "code": "002027",
+      "industry": "传媒"
+    },
+    {
+      "name": "美的集团",
+      "code": "000333",
+      "industry": "家电"
+    }
+  ],
+  "update_interval_minutes": 60,
+  "max_news_per_stock": 100,
+  "output_file": "stock_news.html"
+}
